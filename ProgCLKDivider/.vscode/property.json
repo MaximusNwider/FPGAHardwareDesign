@@ -12,7 +12,8 @@
 		"hardware": {
 			"common": [],
 			"custom": [
-				"bin"
+				"C:/Users/man01/AppData/Local/Programs/Microsoft VS Code/bin",
+				"."
 			]
 		}
 	}
