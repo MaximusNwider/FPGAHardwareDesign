@@ -1,0 +1,50 @@
+# Vivado / Xilinx generated artifacts
+.Xil/
+*.cache/
+*.gen/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+xsim.dir/
+
+# Vivado journals, logs, reports, and generated messages
+*.jou
+*.log
+*.str
+*.rpt
+*.xmsgs
+webtalk*.jou
+webtalk*.log
+usage_statistics_webtalk.*
+
+# Simulation waveforms and dumps
+*.wdb
+*.vcd
+*.vpd
+
+# Implementation/programming outputs
+*.bit
+*.bin
+*.mcs
+*.prm
+*.ltx
+*.mmi
+*.dcp
+
+# Temporary / backup files
+*.bak
+*.backup
+*.tmp
+*.dmp
+*.sh
+*~
+
+# Local cleanup quarantine
+.repo_cleanup_quarantine/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
