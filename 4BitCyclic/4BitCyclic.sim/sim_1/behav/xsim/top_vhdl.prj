@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../prt3.srcs/sources_1/imports/Downloads/CDiv.vhd" \
+"../../../../prt3.srcs/sources_1/new/TOPM.vhd" \
+
+# Do not sort compile order
+nosort

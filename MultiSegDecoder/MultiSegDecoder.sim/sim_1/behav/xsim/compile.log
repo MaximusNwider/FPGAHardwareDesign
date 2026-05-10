@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/man01/OneDrive/Desktop/255_LAB5/ECE255_MANlab5/ECE255_MANlab5.srcs/sources_1/new/FA.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'FA'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/man01/OneDrive/Desktop/255_LAB5/ECE255_MANlab5/ECE255_MANlab5.srcs/sources_1/new/TOP.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'TOP'

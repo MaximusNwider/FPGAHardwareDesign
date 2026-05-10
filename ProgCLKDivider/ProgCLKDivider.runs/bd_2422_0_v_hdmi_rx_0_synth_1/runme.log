@@ -1,0 +1,474 @@
+
+*** Running vivado
+    with args -log bd_2422_0_v_hdmi_rx_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source bd_2422_0_v_hdmi_rx_0.tcl
+
+
+
+****** Vivado v2020.2 (64-bit)
+  **** SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+  **** IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source bd_2422_0_v_hdmi_rx_0.tcl -notrace
+Command: synth_design -top bd_2422_0_v_hdmi_rx_0 -part xc7a35tcpg236-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 10540
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1015.859 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'bd_2422_0_v_hdmi_rx_0' [d:/FPGAHardwareDesign/ProgCLKDivider/ProgCLKDivider.gen/sources_1/ip/v_hdmi_rx_ss_0/bd_0/ip/ip_0/synth/bd_2422_0_v_hdmi_rx_0.sv:58]
+INFO: [Synth 8-6157] synthesizing module 'RAM64X1S' [D:/Vivado/2020.2/scripts/rt/data/unisim_comp.v:70646]
+INFO: [Synth 8-6155] done synthesizing module 'RAM64X1S' (1#1) [D:/Vivado/2020.2/scripts/rt/data/unisim_comp.v:70646]
+INFO: [Synth 8-6157] synthesizing module 'xpm_cdc_single' [D:/Vivado/2020.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:153]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_cdc_single' (2#1) [D:/Vivado/2020.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:153]
+INFO: [Synth 8-6157] synthesizing module 'xpm_cdc_sync_rst' [D:/Vivado/2020.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:1059]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_cdc_sync_rst' (4#1) [D:/Vivado/2020.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:1059]
+INFO: [Synth 8-6157] synthesizing module 'xpm_cdc_gray' [D:/Vivado/2020.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:284]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_cdc_gray' (12#1) [D:/Vivado/2020.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:284]
+INFO: [Synth 8-6157] synthesizing module 'xpm_cdc_handshake' [D:/Vivado/2020.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:469]
+INFO: [Synth 8-6157] synthesizing module 'xpm_cdc_single__parameterized0' [D:/Vivado/2020.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:153]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_cdc_single__parameterized0' (17#1) [D:/Vivado/2020.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:153]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_cdc_handshake' (18#1) [D:/Vivado/2020.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:469]
+INFO: [Synth 8-6157] synthesizing module 'xpm_cdc_handshake__parameterized0' [D:/Vivado/2020.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:469]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_cdc_handshake__parameterized0' (18#1) [D:/Vivado/2020.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:469]
+INFO: [Synth 8-6157] synthesizing module 'xpm_cdc_handshake__parameterized1' [D:/Vivado/2020.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:469]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_cdc_handshake__parameterized1' (18#1) [D:/Vivado/2020.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:469]
+INFO: [Synth 8-6157] synthesizing module 'xpm_cdc_gray__parameterized0' [D:/Vivado/2020.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:284]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_cdc_gray__parameterized0' (19#1) [D:/Vivado/2020.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:284]
+INFO: [Synth 8-6157] synthesizing module 'xpm_cdc_handshake__parameterized2' [D:/Vivado/2020.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:469]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_cdc_handshake__parameterized2' (20#1) [D:/Vivado/2020.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:469]
+INFO: [Synth 8-6157] synthesizing module 'xpm_cdc_handshake__parameterized3' [D:/Vivado/2020.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:469]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_cdc_handshake__parameterized3' (20#1) [D:/Vivado/2020.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:469]
+INFO: [Synth 8-6157] synthesizing module 'xpm_cdc_handshake__parameterized4' [D:/Vivado/2020.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:469]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_cdc_handshake__parameterized4' (20#1) [D:/Vivado/2020.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:469]
+INFO: [Synth 8-6157] synthesizing module 'xpm_cdc_handshake__parameterized5' [D:/Vivado/2020.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:469]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_cdc_handshake__parameterized5' (21#1) [D:/Vivado/2020.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:469]
+INFO: [Synth 8-6157] synthesizing module 'xpm_cdc_handshake__parameterized6' [D:/Vivado/2020.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:469]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_cdc_handshake__parameterized6' (22#1) [D:/Vivado/2020.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:469]
+INFO: [Synth 8-6157] synthesizing module 'xpm_cdc_async_rst' [D:/Vivado/2020.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:1175]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_cdc_async_rst' (30#1) [D:/Vivado/2020.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:1175]
+INFO: [Synth 8-6155] done synthesizing module 'bd_2422_0_v_hdmi_rx_0' (50#1) [d:/FPGAHardwareDesign/ProgCLKDivider/ProgCLKDivider.gen/sources_1/ip/v_hdmi_rx_ss_0/bd_0/ip/ip_0/synth/bd_2422_0_v_hdmi_rx_0.sv:58]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1111.418 ; gain = 95.559
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 1119.781 ; gain = 103.922
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 1119.781 ; gain = 103.922
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.487 . Memory (MB): peak = 1132.836 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 1 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [d:/FPGAHardwareDesign/ProgCLKDivider/ProgCLKDivider.gen/sources_1/ip/v_hdmi_rx_ss_0/bd_0/ip/ip_0/bd_2422_0_v_hdmi_rx_0_ooc.xdc] for cell 'inst'
+Finished Parsing XDC File [d:/FPGAHardwareDesign/ProgCLKDivider/ProgCLKDivider.gen/sources_1/ip/v_hdmi_rx_ss_0/bd_0/ip/ip_0/bd_2422_0_v_hdmi_rx_0_ooc.xdc] for cell 'inst'
+Parsing XDC File [D:/FPGAHardwareDesign/ProgCLKDivider/ProgCLKDivider.runs/bd_2422_0_v_hdmi_rx_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [D:/FPGAHardwareDesign/ProgCLKDivider/ProgCLKDivider.runs/bd_2422_0_v_hdmi_rx_0_synth_1/dont_touch.xdc]
+Parsing XDC File [d:/FPGAHardwareDesign/ProgCLKDivider/ProgCLKDivider.gen/sources_1/ip/v_hdmi_rx_ss_0/bd_0/ip/ip_0/bd_2422_0_v_hdmi_rx_0_core.xdc] for cell 'inst'
+Finished Parsing XDC File [d:/FPGAHardwareDesign/ProgCLKDivider/ProgCLKDivider.gen/sources_1/ip/v_hdmi_rx_ss_0/bd_0/ip/ip_0/bd_2422_0_v_hdmi_rx_0_core.xdc] for cell 'inst'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [d:/FPGAHardwareDesign/ProgCLKDivider/ProgCLKDivider.gen/sources_1/ip/v_hdmi_rx_ss_0/bd_0/ip/ip_0/bd_2422_0_v_hdmi_rx_0_core.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/bd_2422_0_v_hdmi_rx_0_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/bd_2422_0_v_hdmi_rx_0_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/Vivado/2020.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/bd_2422_0_v_hdmi_rx_0_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/bd_2422_0_v_hdmi_rx_0_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/Vivado/2020.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_handshake.tcl]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/bd_2422_0_v_hdmi_rx_0_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/bd_2422_0_v_hdmi_rx_0_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/Vivado/2020.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_single.tcl]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/bd_2422_0_v_hdmi_rx_0_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/bd_2422_0_v_hdmi_rx_0_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+INFO: [Project 1-1715] 5 XPM XDC files have been applied to the design.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.009 . Memory (MB): peak = 1246.988 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 1 instances were transformed.
+  RAM64X1S => RAM64X1S (RAMS64E): 1 instance 
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.256 . Memory (MB): peak = 1248.820 ; gain = 1.832
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:32 ; elapsed = 00:00:33 . Memory (MB): peak = 1248.820 ; gain = 232.961
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:32 ; elapsed = 00:00:33 . Memory (MB): peak = 1248.820 ; gain = 232.961
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for inst. (constraint file  D:/FPGAHardwareDesign/ProgCLKDivider/ProgCLKDivider.runs/bd_2422_0_v_hdmi_rx_0_synth_1/dont_touch.xdc, line 6).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/SYS_INST/CORE_INST/CH0_INST/LRST_XPM_ASYNC_INST. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/SYS_INST/CORE_INST/CH1_INST/LRST_XPM_ASYNC_INST. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/SYS_INST/CORE_INST/CH2_INST/LRST_XPM_ASYNC_INST. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/SYS_INST/VTD_INST/P_FIFO_INST/RP_CDA_INST/XPM_GRAY_INST. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/SYS_INST/VTD_INST/P_FIFO_INST/WP_CDA_INST/XPM_GRAY_INST. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/SYS_INST/CORE_INST/CH0_INST/VID_INST/\gen_ch0.DCS_FIFO_INST /RP_CDA_INST/XPM_GRAY_INST. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/SYS_INST/CORE_INST/CH0_INST/VID_INST/\gen_ch0.DCS_FIFO_INST /WP_CDA_INST/XPM_GRAY_INST. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/SYS_INST/CORE_INST/CH0_INST/VID_INST/PIX_FIFO_INST/RP_CDA_INST/XPM_GRAY_INST. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/SYS_INST/CORE_INST/CH0_INST/VID_INST/PIX_FIFO_INST/WP_CDA_INST/XPM_GRAY_INST. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/SYS_INST/CORE_INST/CH1_INST/VID_INST/PIX_FIFO_INST/RP_CDA_INST/XPM_GRAY_INST. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/SYS_INST/CORE_INST/CH1_INST/VID_INST/PIX_FIFO_INST/WP_CDA_INST/XPM_GRAY_INST. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/SYS_INST/CORE_INST/CH2_INST/VID_INST/PIX_FIFO_INST/RP_CDA_INST/XPM_GRAY_INST. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/SYS_INST/CORE_INST/CH2_INST/VID_INST/PIX_FIFO_INST/WP_CDA_INST/XPM_GRAY_INST. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/SYS_INST/AUX_INST/PKT_FIFO_INST/RP_CDA_INST/XPM_GRAY_INST. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/SYS_INST/AUX_INST/PKT_FIFO_INST/WP_CDA_INST/XPM_GRAY_INST. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/SYS_INST/AUD_INST/FIFO_INST/RP_CDA_INST/XPM_GRAY_INST. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/SYS_INST/AUD_INST/FIFO_INST/WP_CDA_INST/XPM_GRAY_INST. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/SYS_INST/AUX_INST/SCLK_AVI_CS_CDC_INST/\gen_handshake.XPM_INST . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/SYS_INST/AUX_INST/SCLK_GCP_CD_CDC_INST/\gen_handshake.XPM_INST . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/SYS_INST/CORE_INST/CFG_CD_CDC_INST/\gen_handshake.XPM_INST . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/SYS_INST/CORE_INST/CH0_INST/VID_INST/VCLK_CFG_CD_CDC_INST/\gen_handshake.XPM_INST . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/SYS_INST/CORE_INST/CH1_INST/VID_INST/VCLK_CFG_CD_CDC_INST/\gen_handshake.XPM_INST . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/SYS_INST/CORE_INST/CH2_INST/VID_INST/VCLK_CFG_CD_CDC_INST/\gen_handshake.XPM_INST . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/SYS_INST/VCLK_CD_CDC_INST/\gen_handshake.XPM_INST . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/BRDG_CDC_INST/\gen_handshake.XPM_INST . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/SYS_INST/AUD_INST/SCLK_ACR_CTS_CDC_INST/\gen_handshake.XPM_INST . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/SYS_INST/AUD_INST/SCLK_ACR_N_CDC_INST/\gen_handshake.XPM_INST . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/SYS_INST/AUD_INST/SCLK_AUD_CH_CDC_INST/\gen_handshake.XPM_INST . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/SYS_INST/AUD_INST/SCLK_FIFO_FLUSH_CNT_CDC_INST/\gen_handshake.XPM_INST . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/SYS_INST/AUD_INST/SCLK_FMT_CDC_INST/\gen_handshake.XPM_INST . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/SYS_INST/CORE_INST/SCLK_STA_SCRM_LOCK_CDC_INST/\gen_handshake.XPM_INST . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/SYS_INST/AUX_INST/SCLK_AVI_VIC_CDC_INST/\gen_handshake.XPM_INST . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/SYS_INST/AUX_INST/SCLK_GCP_PP_CDC_INST/\gen_handshake.XPM_INST . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/SYS_INST/CORE_INST/CFG_PP_CDC_INST/\gen_handshake.XPM_INST . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/SYS_INST/STA_INST/\gen_err_cap[0].SCLK_LNK_ERR_CDC_INST /\gen_handshake.XPM_INST . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/SYS_INST/STA_INST/\gen_err_cap[1].SCLK_LNK_ERR_CDC_INST /\gen_handshake.XPM_INST . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/SYS_INST/STA_INST/\gen_err_cap[2].SCLK_LNK_ERR_CDC_INST /\gen_handshake.XPM_INST . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/ET_DIS_CDC_INST/\gen_single.genblk1[0].XPM_INST . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/SYS_INST/VTD_INST/SCLK_VID_RDY_CDC_INST/\gen_single.genblk1[0].XPM_INST . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/SYS_INST/VTD_INST/SCLK_VID_HS_CDC_INST/\gen_single.genblk1[0].XPM_INST . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/SYS_INST/VTD_INST/VCLK_CTRL_FLD_POL_SYNC_INST/\gen_single.genblk1[0].XPM_INST . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/SYS_INST/LCLK_VID_VSYNC_CDC_INST/\gen_single.genblk1[0].XPM_INST . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/SYS_INST/AUX_INST/SCLK_AVI_RDY_CDC_INST/\gen_single.genblk1[0].XPM_INST . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/SYS_INST/AUX_INST/SCLK_GCP_AVMUTE_CDC_INST/\gen_single.genblk1[0].XPM_INST . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/SYS_INST/AUX_INST/SCLK_GCP_RDY_CDC_INST/\gen_single.genblk1[0].XPM_INST . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/SYS_INST/AUX_INST/SCLK_PKT_ERR_CDC_INST/\gen_single.genblk1[0].XPM_INST . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/SYS_INST/AUX_INST/SCLK_GCP_CD_CHG_CDC_INST/\gen_single.genblk1[0].XPM_INST . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/SYS_INST/AUX_INST/SCLK_HDMI_MODE_CDC_INST/\gen_single.genblk1[0].XPM_INST . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/SYS_INST/AUX_INST/LCLK_CTRL_REG_RUN_CDC_INST/\gen_single.genblk1[0].XPM_INST . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/SYS_INST/AUX_INST/LCLK_GCP_CD_CHG_ACK_CDC_INST/\gen_single.genblk1[0].XPM_INST . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/SYS_INST/AUD_INST/SCLK_AUD_ACT_CDC_INST/\gen_single.genblk1[0].XPM_INST . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/SYS_INST/AUD_INST/SCLK_AUD_PRO_UPD_CDC_INST/\gen_single.genblk1[0].XPM_INST . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/SYS_INST/AUD_INST/LCLK_CTRL_REG_RUN_CDC_INST/\gen_single.genblk1[0].XPM_INST . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/SYS_INST/AUD_INST/ACLK_CTRL_REG_RUN_CDC_INST/\gen_single.genblk1[0].XPM_INST . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/SYS_INST/AUD_INST/ACLK_FLUSH_CLR_CDC_INST/REQ_SYNC_INST/\gen_single.genblk1[0].XPM_INST . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/SYS_INST/STA_INST/LRST_CDC_INST/\gen_single.genblk1[0].XPM_INST . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/SYS_INST/STA_INST/LCLK_CLR_CDC_INST/\gen_single.genblk1[0].XPM_INST . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/SYS_INST/STA_INST/LCLK_PKT_ECC_ERR_CDC_INST/REQ_SYNC_INST/\gen_single.genblk1[0].XPM_INST . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/SYS_INST/CORE_INST/CFG_MODE_CDC_INST/\gen_single.genblk1[0].XPM_INST . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/SYS_INST/CORE_INST/CFG_LNK_CDC_INST/\gen_single.genblk1[0].XPM_INST . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/SYS_INST/CORE_INST/CFG_SCRM_EN_CDC_INST/\gen_single.genblk1[0].XPM_INST . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/SYS_INST/CORE_INST/CH0_INST/VID_INST/\gen_ch0.VCLK_VGB_RST_CDC_INST /\gen_single.genblk1[0].XPM_INST . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/SYS_INST/CORE_INST/LCLK_TS_ERR_CDC_INST/\gen_single.genblk1[0].XPM_INST . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/SYS_INST/CORE_INST/SCLK_STA_ALN_LOCK_CDC_INST/\gen_single.genblk1[0].XPM_INST . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/SYS_INST/WA_CHG0_CDC_INST/REQ_SYNC_INST/\gen_single.genblk1[0].XPM_INST . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/SYS_INST/WA_CHG1_CDC_INST/REQ_SYNC_INST/\gen_single.genblk1[0].XPM_INST . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/SYS_INST/WA_CHG2_CDC_INST/REQ_SYNC_INST/\gen_single.genblk1[0].XPM_INST . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/SYS_INST/VID_BRDG_OVERFLOW_CDC_INST/\gen_single.genblk1[0].XPM_INST . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/AXIS_EN_CDC_INST/\gen_single.genblk1[0].XPM_INST . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/SYS_INST/AUX_INST/SCLK_LNK_RST_CAP_INST/XPM_INST. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/SYS_INST/CD_INST/DET_SYNC_INST/XPM_INST. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/SYS_INST/AUX_INST/SCLK_AVI_CS_CDC_INST/\gen_handshake.XPM_INST /xpm_cdc_single_dest2src_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/SYS_INST/AUX_INST/SCLK_AVI_VIC_CDC_INST/\gen_handshake.XPM_INST /xpm_cdc_single_dest2src_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/SYS_INST/AUX_INST/SCLK_GCP_CD_CDC_INST/\gen_handshake.XPM_INST /xpm_cdc_single_dest2src_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/SYS_INST/AUX_INST/SCLK_GCP_PP_CDC_INST/\gen_handshake.XPM_INST /xpm_cdc_single_dest2src_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/SYS_INST/AUD_INST/SCLK_ACR_CTS_CDC_INST/\gen_handshake.XPM_INST /xpm_cdc_single_dest2src_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/SYS_INST/AUD_INST/SCLK_ACR_N_CDC_INST/\gen_handshake.XPM_INST /xpm_cdc_single_dest2src_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/SYS_INST/AUD_INST/SCLK_FMT_CDC_INST/\gen_handshake.XPM_INST /xpm_cdc_single_dest2src_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/SYS_INST/AUD_INST/SCLK_AUD_CH_CDC_INST/\gen_handshake.XPM_INST /xpm_cdc_single_dest2src_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/SYS_INST/AUD_INST/SCLK_FIFO_FLUSH_CNT_CDC_INST/\gen_handshake.XPM_INST /xpm_cdc_single_dest2src_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/SYS_INST/STA_INST/\gen_err_cap[0].SCLK_LNK_ERR_CDC_INST /\gen_handshake.XPM_INST /xpm_cdc_single_dest2src_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/SYS_INST/STA_INST/\gen_err_cap[1].SCLK_LNK_ERR_CDC_INST /\gen_handshake.XPM_INST /xpm_cdc_single_dest2src_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/SYS_INST/STA_INST/\gen_err_cap[2].SCLK_LNK_ERR_CDC_INST /\gen_handshake.XPM_INST /xpm_cdc_single_dest2src_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/SYS_INST/CORE_INST/CFG_CD_CDC_INST/\gen_handshake.XPM_INST /xpm_cdc_single_dest2src_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/SYS_INST/CORE_INST/CFG_PP_CDC_INST/\gen_handshake.XPM_INST /xpm_cdc_single_dest2src_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/SYS_INST/CORE_INST/CH0_INST/VID_INST/VCLK_CFG_CD_CDC_INST/\gen_handshake.XPM_INST /xpm_cdc_single_dest2src_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/SYS_INST/CORE_INST/CH1_INST/VID_INST/VCLK_CFG_CD_CDC_INST/\gen_handshake.XPM_INST /xpm_cdc_single_dest2src_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/SYS_INST/CORE_INST/CH2_INST/VID_INST/VCLK_CFG_CD_CDC_INST/\gen_handshake.XPM_INST /xpm_cdc_single_dest2src_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/SYS_INST/CORE_INST/SCLK_STA_SCRM_LOCK_CDC_INST/\gen_handshake.XPM_INST /xpm_cdc_single_dest2src_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/SYS_INST/VCLK_CD_CDC_INST/\gen_handshake.XPM_INST /xpm_cdc_single_dest2src_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/BRDG_CDC_INST/\gen_handshake.XPM_INST /xpm_cdc_single_dest2src_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/SYS_INST/AUX_INST/SCLK_AVI_CS_CDC_INST/\gen_handshake.XPM_INST /xpm_cdc_single_src2dest_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/SYS_INST/AUX_INST/SCLK_AVI_VIC_CDC_INST/\gen_handshake.XPM_INST /xpm_cdc_single_src2dest_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/SYS_INST/AUX_INST/SCLK_GCP_CD_CDC_INST/\gen_handshake.XPM_INST /xpm_cdc_single_src2dest_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/SYS_INST/AUX_INST/SCLK_GCP_PP_CDC_INST/\gen_handshake.XPM_INST /xpm_cdc_single_src2dest_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/SYS_INST/AUD_INST/SCLK_ACR_CTS_CDC_INST/\gen_handshake.XPM_INST /xpm_cdc_single_src2dest_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/SYS_INST/AUD_INST/SCLK_ACR_N_CDC_INST/\gen_handshake.XPM_INST /xpm_cdc_single_src2dest_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/SYS_INST/AUD_INST/SCLK_FMT_CDC_INST/\gen_handshake.XPM_INST /xpm_cdc_single_src2dest_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/SYS_INST/AUD_INST/SCLK_AUD_CH_CDC_INST/\gen_handshake.XPM_INST /xpm_cdc_single_src2dest_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/SYS_INST/AUD_INST/SCLK_FIFO_FLUSH_CNT_CDC_INST/\gen_handshake.XPM_INST /xpm_cdc_single_src2dest_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/SYS_INST/STA_INST/\gen_err_cap[0].SCLK_LNK_ERR_CDC_INST /\gen_handshake.XPM_INST /xpm_cdc_single_src2dest_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/SYS_INST/STA_INST/\gen_err_cap[1].SCLK_LNK_ERR_CDC_INST /\gen_handshake.XPM_INST /xpm_cdc_single_src2dest_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/SYS_INST/STA_INST/\gen_err_cap[2].SCLK_LNK_ERR_CDC_INST /\gen_handshake.XPM_INST /xpm_cdc_single_src2dest_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/SYS_INST/CORE_INST/CFG_CD_CDC_INST/\gen_handshake.XPM_INST /xpm_cdc_single_src2dest_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/SYS_INST/CORE_INST/CFG_PP_CDC_INST/\gen_handshake.XPM_INST /xpm_cdc_single_src2dest_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/SYS_INST/CORE_INST/CH0_INST/VID_INST/VCLK_CFG_CD_CDC_INST/\gen_handshake.XPM_INST /xpm_cdc_single_src2dest_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/SYS_INST/CORE_INST/CH1_INST/VID_INST/VCLK_CFG_CD_CDC_INST/\gen_handshake.XPM_INST /xpm_cdc_single_src2dest_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/SYS_INST/CORE_INST/CH2_INST/VID_INST/VCLK_CFG_CD_CDC_INST/\gen_handshake.XPM_INST /xpm_cdc_single_src2dest_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/SYS_INST/CORE_INST/SCLK_STA_SCRM_LOCK_CDC_INST/\gen_handshake.XPM_INST /xpm_cdc_single_src2dest_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/SYS_INST/VCLK_CD_CDC_INST/\gen_handshake.XPM_INST /xpm_cdc_single_src2dest_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/BRDG_CDC_INST/\gen_handshake.XPM_INST /xpm_cdc_single_src2dest_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/ARST_INST. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/M_AXIS_VIDEO_RST_CDC_INST. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/SRST_INST. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/SYS_INST/VRST_INST/XPM_RST_INST. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/SYS_INST/LRST_INST/XPM_RST_INST. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/VIDEO_RST_INST/XPM_RST_INST. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/AXIS_RST_INST/XPM_RST_INST. (constraint file  auto generated constraint).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:32 ; elapsed = 00:00:34 . Memory (MB): peak = 1248.820 ; gain = 232.961
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'clk_sm_cur_reg' in module 'v_hdmi_rx_v3_0_0_axi'
+INFO: [Synth 8-802] inferred FSM for state register 'vclk_fsm_cur_reg' in module 'v_hdmi_rx_v3_0_0_vtd'
+INFO: [Synth 8-802] inferred FSM for state register 'aclk_sm_cur_reg' in module 'v_hdmi_rx_v3_0_0_aud'
+INFO: [Synth 8-802] inferred FSM for state register 'clk_sm_cur_reg' in module 'v_hdmi_rx_v3_0_0_aln'
+INFO: [Synth 8-802] inferred FSM for state register 'clk_sm_cur_reg' in module 'v_hdmi_rx_v3_0_0_aln__parameterized0'
+INFO: [Synth 8-802] inferred FSM for state register 'clk_sm_cur_reg' in module 'v_hdmi_rx_v3_0_0_aln__parameterized1'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 sm_idle |                           000001 | 00000000000000000000000000000000
+                   sm_wr |                           000010 | 00000000000000000000000000000001
+               sm_wr_end |                           000100 | 00000000000000000000000000000010
+                   sm_rd |                           001000 | 00000000000000000000000000000011
+              sm_rd_loop |                           010000 | 00000000000000000000000000000100
+               sm_rd_end |                           100000 | 00000000000000000000000000000101
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'clk_sm_cur_reg' using encoding 'one-hot' in module 'v_hdmi_rx_v3_0_0_axi'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                fsm_fld0 |                                0 | 00000000000000000000000000000000
+                fsm_fld1 |                                1 | 00000000000000000000000000000001
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'vclk_fsm_cur_reg' using encoding 'sequential' in module 'v_hdmi_rx_v3_0_0_vtd'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 sm_idle |                                0 | 00000000000000000000000000000000
+                  sm_aud |                                1 | 00000000000000000000000000000001
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'aclk_sm_cur_reg' using encoding 'sequential' in module 'v_hdmi_rx_v3_0_0_aud'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  sm_rst |                             0000 | 00000000000000000000000000000000
+                 sm_init |                             0001 | 00000000000000000000000000000001
+                   sm_wa |                             0010 | 00000000000000000000000000000010
+              sm_pha_sof |                             0011 | 00000000000000000000000000000011
+              sm_pha_sol |                             0100 | 00000000000000000000000000000100
+              sm_pha_run |                             0101 | 00000000000000000000000000000101
+             sm_lat_init |                             0110 | 00000000000000000000000000000110
+              sm_lat_run |                             0111 | 00000000000000000000000000000111
+              sm_fifo_ld |                             1000 | 00000000000000000000000000001000
+             sm_fifo_run |                             1001 | 00000000000000000000000000001001
+            sm_lock_init |                             1010 | 00000000000000000000000000001010
+                 sm_lock |                             1011 | 00000000000000000000000000001011
+               sm_locked |                             1100 | 00000000000000000000000000001100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'clk_sm_cur_reg' using encoding 'sequential' in module 'v_hdmi_rx_v3_0_0_aln'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  sm_rst |                             0000 | 00000000000000000000000000000000
+                 sm_init |                             0001 | 00000000000000000000000000000001
+                   sm_wa |                             0010 | 00000000000000000000000000000010
+              sm_pha_sof |                             0011 | 00000000000000000000000000000011
+              sm_pha_sol |                             0100 | 00000000000000000000000000000100
+              sm_pha_run |                             0101 | 00000000000000000000000000000101
+             sm_lat_init |                             0110 | 00000000000000000000000000000110
+              sm_lat_run |                             0111 | 00000000000000000000000000000111
+              sm_fifo_ld |                             1000 | 00000000000000000000000000001000
+             sm_fifo_run |                             1001 | 00000000000000000000000000001001
+            sm_lock_init |                             1010 | 00000000000000000000000000001010
+                 sm_lock |                             1011 | 00000000000000000000000000001011
+               sm_locked |                             1100 | 00000000000000000000000000001100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'clk_sm_cur_reg' using encoding 'sequential' in module 'v_hdmi_rx_v3_0_0_aln__parameterized0'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  sm_rst |                             0000 | 00000000000000000000000000000000
+                 sm_init |                             0001 | 00000000000000000000000000000001
+                   sm_wa |                             0010 | 00000000000000000000000000000010
+              sm_pha_sof |                             0011 | 00000000000000000000000000000011
+              sm_pha_sol |                             0100 | 00000000000000000000000000000100
+              sm_pha_run |                             0101 | 00000000000000000000000000000101
+             sm_lat_init |                             0110 | 00000000000000000000000000000110
+              sm_lat_run |                             0111 | 00000000000000000000000000000111
+              sm_fifo_ld |                             1000 | 00000000000000000000000000001000
+             sm_fifo_run |                             1001 | 00000000000000000000000000001001
+            sm_lock_init |                             1010 | 00000000000000000000000000001010
+                 sm_lock |                             1011 | 00000000000000000000000000001011
+               sm_locked |                             1100 | 00000000000000000000000000001100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'clk_sm_cur_reg' using encoding 'sequential' in module 'v_hdmi_rx_v3_0_0_aln__parameterized1'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:44 ; elapsed = 00:00:46 . Memory (MB): peak = 1248.820 ; gain = 232.961
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:03:05 ; elapsed = 00:03:09 . Memory (MB): peak = 1433.477 ; gain = 417.617
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:03:13 ; elapsed = 00:03:18 . Memory (MB): peak = 1433.477 ; gain = 417.617
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:03:16 ; elapsed = 00:03:21 . Memory (MB): peak = 1433.477 ; gain = 417.617
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-7052] The timing for the instance inst/SYS_INST/AUX_INST/PKT_FIFO_INST/aclk_dpram_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:03:29 ; elapsed = 00:03:35 . Memory (MB): peak = 1433.477 ; gain = 417.617
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:03:35 ; elapsed = 00:03:41 . Memory (MB): peak = 1433.477 ; gain = 417.617
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:03:35 ; elapsed = 00:03:41 . Memory (MB): peak = 1433.477 ; gain = 417.617
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:03:38 ; elapsed = 00:03:44 . Memory (MB): peak = 1433.477 ; gain = 417.617
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:03:38 ; elapsed = 00:03:44 . Memory (MB): peak = 1433.477 ; gain = 417.617
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:03:39 ; elapsed = 00:03:44 . Memory (MB): peak = 1433.477 ; gain = 417.617
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:03:39 ; elapsed = 00:03:45 . Memory (MB): peak = 1433.477 ; gain = 417.617
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |CARRY4   |   183|
+|2     |LUT1     |   175|
+|3     |LUT2     |  1340|
+|4     |LUT3     |   902|
+|5     |LUT4     |  1601|
+|6     |LUT5     |  1588|
+|7     |LUT6     |  3609|
+|8     |MUXF7    |   168|
+|9     |MUXF8    |    16|
+|10    |RAM32M   |    57|
+|11    |RAM64M   |   128|
+|12    |RAM64X1D |    88|
+|13    |RAM64X1S |     1|
+|14    |RAMB36E1 |     1|
+|15    |SRL16E   |    99|
+|16    |FDCE     |  4615|
+|17    |FDPE     |    83|
+|18    |FDRE     |  3554|
+|19    |FDSE     |    63|
++------+---------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:03:39 ; elapsed = 00:03:45 . Memory (MB): peak = 1433.477 ; gain = 417.617
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:03:13 ; elapsed = 00:03:36 . Memory (MB): peak = 1433.477 ; gain = 288.578
+Synthesis Optimization Complete : Time (s): cpu = 00:03:39 ; elapsed = 00:03:45 . Memory (MB): peak = 1433.477 ; gain = 417.617
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.398 . Memory (MB): peak = 1433.477 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 642 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 1433.477 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 274 instances were transformed.
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 57 instances
+  RAM64M => RAM64M (RAMD64E(x4)): 128 instances
+  RAM64X1D => RAM64X1D (RAMD64E(x2)): 88 instances
+  RAM64X1S => RAM64X1S (RAMS64E): 1 instance 
+
+INFO: [Common 17-83] Releasing license: Synthesis
+66 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:03:48 ; elapsed = 00:03:55 . Memory (MB): peak = 1433.477 ; gain = 417.617
+INFO: [Common 17-1381] The checkpoint 'D:/FPGAHardwareDesign/ProgCLKDivider/ProgCLKDivider.runs/bd_2422_0_v_hdmi_rx_0_synth_1/bd_2422_0_v_hdmi_rx_0.dcp' has been generated.
+write_vhdl: Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1433.477 ; gain = 0.000
+WARNING: [Common 17-576] 'use_project_ipc' is deprecated. This option is deprecated and no longer used.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP bd_2422_0_v_hdmi_rx_0, cache-ID = 36064eb5a4691b72
+INFO: [Coretcl 2-1174] Renamed 367 cell refs.
+INFO: [Common 17-1381] The checkpoint 'D:/FPGAHardwareDesign/ProgCLKDivider/ProgCLKDivider.runs/bd_2422_0_v_hdmi_rx_0_synth_1/bd_2422_0_v_hdmi_rx_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file bd_2422_0_v_hdmi_rx_0_utilization_synth.rpt -pb bd_2422_0_v_hdmi_rx_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sun May 10 12:28:06 2026...

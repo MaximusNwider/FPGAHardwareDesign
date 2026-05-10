@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/man01/OneDrive/Desktop/Lab6File/Lab7/Lab7.srcs/sources_1/new/TOP.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'TOP'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/man01/OneDrive/Desktop/Lab6File/Lab7/Lab7.srcs/sim_1/new/Simulation.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Lab4'

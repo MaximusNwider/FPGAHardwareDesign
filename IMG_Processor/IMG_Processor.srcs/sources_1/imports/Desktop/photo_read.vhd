@@ -3,7 +3,7 @@ USE ieee.std_logic_1164.ALL;
 USE ieee.numeric_std.ALL;
 USE std.textio.ALL;
 
-ENTITY read_image_VHDL IS
+ENTITY photo_read IS
 	GENERIC (
 
 		--play with this
@@ -17,19 +17,24 @@ ENTITY read_image_VHDL IS
 
 		clock : IN std_logic;
 		data : IN std_logic_vector((DATA_WIDTH - 1) DOWNTO 0);
-		raddress : IN std_logic_vector((ADDR_WIDTH - 1) DOWNTO 0);
+		raddress : IN std_logic_vector((ADDR_WIDTH - 1) DOWNTO 0);u_read_image_VHDL : read_image_VHDL
+port map(
+-- ports
+);
+
 		waddress : IN std_logic_vector((ADDR_WIDTH - 1)DOWNTO 0);
 		re : IN std_logic;
 		we : IN std_logic;
 
-		q : OUT std_logic_vector((DATA_WIDTH - 1)DOWNTO 0);
+		q : OUT std_logic_vector((DATA_WIDTH - 1)DOWNTO 0)
 
 	);
-END read_image_VHDL;
+END photo_read;
 
 
-ARCHITECTURE behavioral OF read_image_VHDL IS
+ARCHITECTURE behavioral OF photo_read IS
 	TYPE mem_type IS ARRAY(0 TO IMAGE_SIZE) OF std_logic_vector((DATA_WIDTH - 1)DOWNTO 0);
+	
 	IMPURE FUNCTION init_mem(mif_file_name : IN STRING) RETURN mem_type IS
 	FILE mif_file : text OPEN read_mode IS mif_file_name;
 	VARIABLE mif_line : line;
@@ -48,13 +53,16 @@ SIGNAL read_address_reg : std_logic_vector((ADDR_WIDTH - 1) DOWNTO 0) := (OTHERS
 BEGIN
 	PROCESS (clock)
 	BEGIN
-		IF (rising_edge(clock))
-		 IF (we = '1') THEN
-				ram_block(to_integer(unsigined(waddress)) <= data;
-			END IF;
+		IF (rising_edge(clock)) Then
+		
+		      IF (we = '1') THEN
+				        ram_block(to_integer(unsigined(waddress)) <= data
+			   END IF;
 			IF (re = '1') THEN
-				q <= ram_block(to_integer(unsigined(raddress));
+				        q <= ram_block(to_integer(unsigined(raddress))
 			END IF;
+			
 		END IF;
 		END PROCESS;
+		
 END behavioral;
