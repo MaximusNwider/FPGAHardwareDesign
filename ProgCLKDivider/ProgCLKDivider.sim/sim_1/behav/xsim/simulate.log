@@ -1,0 +1,50 @@
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+Note: Starting exhaustive Top_CLKDivider testbench.
+Time: 0 ps  Iteration: 0  Process: /TB_Top_CLKDivider/stim_process  File: D:/FPGAHardwareDesign/ProgCLKDivider/ProgCLKDivider.srcs/sim_1/new/TestBench_CLKDIV.vhd
+Note: Applying reset_vec = 000, set_vec = 000
+Time: 50 ns  Iteration: 0  Process: /TB_Top_CLKDivider/stim_process  File: D:/FPGAHardwareDesign/ProgCLKDivider/ProgCLKDivider.srcs/sim_1/new/TestBench_CLKDIV.vhd
+Note: Observed QOUT = 110 for reset_vec = 000, set_vec = 000
+Time: 130 ns  Iteration: 0  Process: /TB_Top_CLKDivider/stim_process  File: D:/FPGAHardwareDesign/ProgCLKDivider/ProgCLKDivider.srcs/sim_1/new/TestBench_CLKDIV.vhd
+Note: Applying reset_vec = 000, set_vec = 000
+Time: 130 ns  Iteration: 0  Process: /TB_Top_CLKDivider/stim_process  File: D:/FPGAHardwareDesign/ProgCLKDivider/ProgCLKDivider.srcs/sim_1/new/TestBench_CLKDIV.vhd
+Note: Observed QOUT = 110 for reset_vec = 000, set_vec = 100
+Time: 210 ns  Iteration: 0  Process: /TB_Top_CLKDivider/stim_process  File: D:/FPGAHardwareDesign/ProgCLKDivider/ProgCLKDivider.srcs/sim_1/new/TestBench_CLKDIV.vhd
+Note: Applying reset_vec = 000, set_vec = 100
+Time: 210 ns  Iteration: 0  Process: /TB_Top_CLKDivider/stim_process  File: D:/FPGAHardwareDesign/ProgCLKDivider/ProgCLKDivider.srcs/sim_1/new/TestBench_CLKDIV.vhd
+Note: Observed QOUT = 110 for reset_vec = 000, set_vec = 010
+Time: 290 ns  Iteration: 0  Process: /TB_Top_CLKDivider/stim_process  File: D:/FPGAHardwareDesign/ProgCLKDivider/ProgCLKDivider.srcs/sim_1/new/TestBench_CLKDIV.vhd
+Note: Applying reset_vec = 000, set_vec = 010
+Time: 290 ns  Iteration: 0  Process: /TB_Top_CLKDivider/stim_process  File: D:/FPGAHardwareDesign/ProgCLKDivider/ProgCLKDivider.srcs/sim_1/new/TestBench_CLKDIV.vhd
+Note: Observed QOUT = 110 for reset_vec = 000, set_vec = 110
+Time: 370 ns  Iteration: 0  Process: /TB_Top_CLKDivider/stim_process  File: D:/FPGAHardwareDesign/ProgCLKDivider/ProgCLKDivider.srcs/sim_1/new/TestBench_CLKDIV.vhd
+Note: Applying reset_vec = 000, set_vec = 110
+Time: 370 ns  Iteration: 0  Process: /TB_Top_CLKDivider/stim_process  File: D:/FPGAHardwareDesign/ProgCLKDivider/ProgCLKDivider.srcs/sim_1/new/TestBench_CLKDIV.vhd
+Note: Observed QOUT = 111 for reset_vec = 000, set_vec = 001
+Time: 450 ns  Iteration: 0  Process: /TB_Top_CLKDivider/stim_process  File: D:/FPGAHardwareDesign/ProgCLKDivider/ProgCLKDivider.srcs/sim_1/new/TestBench_CLKDIV.vhd
+Note: Applying reset_vec = 000, set_vec = 001
+Time: 450 ns  Iteration: 0  Process: /TB_Top_CLKDivider/stim_process  File: D:/FPGAHardwareDesign/ProgCLKDivider/ProgCLKDivider.srcs/sim_1/new/TestBench_CLKDIV.vhd
+Note: Observed QOUT = 111 for reset_vec = 000, set_vec = 101
+Time: 530 ns  Iteration: 0  Process: /TB_Top_CLKDivider/stim_process  File: D:/FPGAHardwareDesign/ProgCLKDivider/ProgCLKDivider.srcs/sim_1/new/TestBench_CLKDIV.vhd
+Note: Applying reset_vec = 000, set_vec = 101
+Time: 530 ns  Iteration: 0  Process: /TB_Top_CLKDivider/stim_process  File: D:/FPGAHardwareDesign/ProgCLKDivider/ProgCLKDivider.srcs/sim_1/new/TestBench_CLKDIV.vhd
+Note: Observed QOUT = 111 for reset_vec = 000, set_vec = 011
+Time: 610 ns  Iteration: 0  Process: /TB_Top_CLKDivider/stim_process  File: D:/FPGAHardwareDesign/ProgCLKDivider/ProgCLKDivider.srcs/sim_1/new/TestBench_CLKDIV.vhd
+Note: Applying reset_vec = 000, set_vec = 011
+Time: 610 ns  Iteration: 0  Process: /TB_Top_CLKDivider/stim_process  File: D:/FPGAHardwareDesign/ProgCLKDivider/ProgCLKDivider.srcs/sim_1/new/TestBench_CLKDIV.vhd
+Note: Observed QOUT = 111 for reset_vec = 000, set_vec = 111
+Time: 690 ns  Iteration: 0  Process: /TB_Top_CLKDivider/stim_process  File: D:/FPGAHardwareDesign/ProgCLKDivider/ProgCLKDivider.srcs/sim_1/new/TestBench_CLKDIV.vhd
+Note: Applying reset_vec = 000, set_vec = 111
+Time: 690 ns  Iteration: 0  Process: /TB_Top_CLKDivider/stim_process  File: D:/FPGAHardwareDesign/ProgCLKDivider/ProgCLKDivider.srcs/sim_1/new/TestBench_CLKDIV.vhd
+Note: Observed QOUT = 011 for reset_vec = 100, set_vec = 000
+Time: 770 ns  Iteration: 0  Process: /TB_Top_CLKDivider/stim_process  File: D:/FPGAHardwareDesign/ProgCLKDivider/ProgCLKDivider.srcs/sim_1/new/TestBench_CLKDIV.vhd
+Note: Applying reset_vec = 100, set_vec = 000
+Time: 770 ns  Iteration: 0  Process: /TB_Top_CLKDivider/stim_process  File: D:/FPGAHardwareDesign/ProgCLKDivider/ProgCLKDivider.srcs/sim_1/new/TestBench_CLKDIV.vhd
+Note: Observed QOUT = 011 for reset_vec = 100, set_vec = 100
+Time: 850 ns  Iteration: 0  Process: /TB_Top_CLKDivider/stim_process  File: D:/FPGAHardwareDesign/ProgCLKDivider/ProgCLKDivider.srcs/sim_1/new/TestBench_CLKDIV.vhd
+Note: Applying reset_vec = 100, set_vec = 100
+Time: 850 ns  Iteration: 0  Process: /TB_Top_CLKDivider/stim_process  File: D:/FPGAHardwareDesign/ProgCLKDivider/ProgCLKDivider.srcs/sim_1/new/TestBench_CLKDIV.vhd
+Note: Observed QOUT = 011 for reset_vec = 100, set_vec = 010
+Time: 930 ns  Iteration: 0  Process: /TB_Top_CLKDivider/stim_process  File: D:/FPGAHardwareDesign/ProgCLKDivider/ProgCLKDivider.srcs/sim_1/new/TestBench_CLKDIV.vhd
+Note: Applying reset_vec = 100, set_vec = 010
+Time: 930 ns  Iteration: 0  Process: /TB_Top_CLKDivider/stim_process  File: D:/FPGAHardwareDesign/ProgCLKDivider/ProgCLKDivider.srcs/sim_1/new/TestBench_CLKDIV.vhd

@@ -1,0 +1,6 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/FPGAHardwareDesign/ProgCLKDivider/ProgCLKDivider.srcs/sources_1/new/DFlipFlop_RE.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'DFlipFlop_RE'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/FPGAHardwareDesign/ProgCLKDivider/ProgCLKDivider.srcs/sources_1/new/Top_CLKDivider.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Top_CLKDivider'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/FPGAHardwareDesign/ProgCLKDivider/ProgCLKDivider.srcs/sim_1/new/TestBench_CLKDIV.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'TB_Top_CLKDivider'
