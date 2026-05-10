@@ -27,7 +27,6 @@ ARCHITECTURE Behavioral OF CLK_DIV IS
 
             clk_in : IN STD_LOGIC := '0';
             D : IN STD_LOGIC := '0';
-
             Q : OUT STD_LOGIC;
             Qbar : OUT STD_LOGIC;
 
