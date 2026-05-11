@@ -31,7 +31,7 @@ usage_statistics_webtalk.*
 *.ltx
 *.mmi
 *.dcp
-
+*.xml
 # Temporary / backup files
 *.bak
 *.backup
