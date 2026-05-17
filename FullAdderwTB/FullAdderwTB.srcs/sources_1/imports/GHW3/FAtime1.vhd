@@ -11,7 +11,7 @@ entity FAtime1 is
 end FAtime1;
 
 architecture Behavioral of FAtime1 is
-    signal Cx,Q:std_logic;
+    signal Cx,  Q:std_logic;
 begin
 
     S <= Q xor (A xor B); --FullAdder Sum bit assigned to Output Port.
@@ -31,3 +31,5 @@ begin
         );
 
 end Behavioral;
+
+
