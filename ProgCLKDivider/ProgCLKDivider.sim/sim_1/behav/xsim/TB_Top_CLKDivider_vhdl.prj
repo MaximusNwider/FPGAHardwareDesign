@@ -1,8 +1,0 @@
-# compile vhdl design source files
-vhdl xil_defaultlib  \
-"../../../../ProgCLKDivider.srcs/sources_1/new/DFlipFlop_RE.vhd" \
-"../../../../ProgCLKDivider.srcs/sources_1/new/Top_CLKDivider.vhd" \
-"../../../../ProgCLKDivider.srcs/sim_1/new/TestBench_CLKDIV.vhd" \
-
-# Do not sort compile order
-nosort

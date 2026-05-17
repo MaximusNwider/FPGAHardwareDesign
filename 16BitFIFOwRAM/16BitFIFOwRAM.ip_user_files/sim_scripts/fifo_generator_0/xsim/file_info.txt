@@ -1,2 +1,0 @@
-fifo_generator_0_sim_netlist.vhdl,vhdl,xil_defaultlib,../../../../351_Lab1.gen/sources_1/ip/fifo_generator_0/fifo_generator_0_sim_netlist.vhdl,
-glbl.v,Verilog,xil_defaultlib,glbl.v
