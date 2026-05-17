@@ -1,40 +1,41 @@
-Library IEEE;
-Use IEEE.std_logic_1164.All;
+library IEEE;
+use IEEE.std_logic_1164.all;
 
-ENTITY MUX is
-GENERIC(
-N: INTEGER := 1
-);
-PORT(
-A : IN STD_LOGIC_VECTOR(0 TO N);
-B : IN STD_LOGIC_VECTOR(0 TO N);
-S : IN STD_LOGIC_VECTOR(0 TO N);
+entity MUX is
+  generic (
+    N : integer := 1
+  );
+  port (
+    A : in std_logic_vector(0 to N);
+    B : in std_logic_vector(0 to N);
+    S : in std_logic_vector(0 to N);
 
-G : OUT STD_LOGIC
+    G : out std_logic
 
-);
-END ENTITY;
+  );
+end entity;
 
-ARCHITECTURE BEHAVIORAL OF MUX IS
-COMPONENT MUX IS
-PORT(
-A : IN STD_LOGIC;
-B : IN STD_LOGIC;
-S : IN STD_LOGIC;
+architecture BEHAVIORAL of MUX is
+  component MUX is
+    port (
+      A : in std_logic;
+      B : in std_logic;
+      S : in std_logic;
 
-G : OUT STD_LOGIC
+      G : out std_logic
 
-);
-END COMPONENT;
-SIGNAL X: STD_LOGIC_VECTOR(0 TO N);
+    );
+  end component;
+  signal X : std_logic_vector(0 to N);
 begin
 
-GenMux: FOR i in 0 to N GENERATE 
-MUX1: MUX
+  GenMux : for i in 0 to N generate
+    MUX1 : MUX
 
-PORT MAP(A =>A(0),S => S(i),B => B(i), G => X(i));
-X(i) <= A(i+1);
+    port map
+      (A => A(0), S => S(i), B => B(i), G => X(i));
+    X(i) <= A(i + 1);
 
-END GENERATE;
-G <= X(N);
-END BEHAVIORAL;
+  end generate;
+  G <= X(N);
+end BEHAVIORAL;
