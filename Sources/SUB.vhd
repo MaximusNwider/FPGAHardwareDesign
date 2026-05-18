@@ -16,7 +16,7 @@ entity SUBTRACTOR is
   );
 end entity SUBTRACTOR;
 
-architecture Structural of SUBTRACTOR is
+architecture Behavioral of SUBTRACTOR is
 
   component FA16Bit
     generic (
